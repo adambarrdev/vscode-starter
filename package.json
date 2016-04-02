@@ -1,0 +1,19 @@
+{
+  "name": "vscode-starter",
+  "version": "1.0.0",
+  "description": "A template for visual studio code to get up and running quickly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adambarrdev/vscode-starter.git"
+  },
+  "author": "adambarrdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adambarrdev/vscode-starter/issues"
+  },
+  "homepage": "https://github.com/adambarrdev/vscode-starter#readme"
+}
