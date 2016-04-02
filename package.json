@@ -4,7 +4,8 @@
   "description": "A template for visual studio code to get up and running quickly.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/adambarrdev/vscode-starter/issues"
   },
-  "homepage": "https://github.com/adambarrdev/vscode-starter#readme"
+  "homepage": "https://github.com/adambarrdev/vscode-starter#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
