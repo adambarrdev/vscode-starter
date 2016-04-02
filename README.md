@@ -1,15 +1,25 @@
 # vscode-starter
 
-## Installation
+## Install ##
 
-#### npm install
+After cloning the repo, install the project dependencies with the following commands...
 
-#### tsd install
+    npm install
+
+    tsd install
+
+---
 
 ## Build
 
-#### gulp
+The default gulp command will run all the build processes needed to run the project
+
+    gulp
+
+---
 
 ## Run
 
-#### npm start
+npm start will kick off the local server and you're all set!
+
+    npm start
