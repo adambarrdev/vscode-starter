@@ -13,6 +13,12 @@
     },
     "bootstrap/bootstrap.d.ts": {
       "commit": "d969b903d1fce89a5e43828ec68458b4f852db4d"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "d969b903d1fce89a5e43828ec68458b4f852db4d"
+    },
+    "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
+      "commit": "d969b903d1fce89a5e43828ec68458b4f852db4d"
     }
   }
 }
