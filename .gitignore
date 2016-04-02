@@ -2,5 +2,8 @@
 
 node_modules
 build
-public
+public/app
+public/templates
+public/css
+public/js
 typings
