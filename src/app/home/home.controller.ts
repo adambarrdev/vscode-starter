@@ -2,19 +2,15 @@
 namespace app {
     'use strict';
 
-    export interface IHomeController {
-        title: string;
-    }
+    export interface IHomeController extends IBaseController { }
     
     export class HomeController implements IHomeController {
 
-        public title: string
+        public title: string = "Home";
+        public headerIcon: string = "fa fa-home";
 
         static $inject: Array<string> = [];
-        constructor() {
-
-            this.title = "Home"
-        }
+        constructor() { }
 
     }
 

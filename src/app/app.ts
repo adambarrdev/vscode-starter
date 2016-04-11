@@ -2,6 +2,11 @@
 module app {
     'use strict';
 
+    export interface IBaseController {
+        title: string;
+        headerIcon: string;
+    }
+
     appConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
     function appConfig($stateProvider: angular.ui.IStateProvider, $urlRouterProvider: angular.ui.IUrlRouterProvider) {
 
