@@ -6,7 +6,6 @@ After cloning the repo, install the project dependencies with the following comm
 
     npm install
 
-    tsd install
 
 ---
 
