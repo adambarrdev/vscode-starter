@@ -5,7 +5,7 @@
 After cloning the repo, install the project dependencies with the following commands...
 
     npm install
-
+    typings install
 
 ---
 
