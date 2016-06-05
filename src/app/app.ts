@@ -13,15 +13,11 @@ module app {
         $stateProvider
             .state("home", {
                 url: "/",
-                controller: "HomeController",
-                controllerAs: "vm",
-                templateUrl: "app/home/home.html"
+                template: "<home></home>"
             })
             .state("about", {
                 url: "/about",
-                controller: "AboutController",
-                controllerAs: "vm",
-                templateUrl: "app/about/about.html"
+                template: "<about></about>"
             });
 
         $urlRouterProvider.otherwise("/");

@@ -16,5 +16,9 @@ namespace app {
 
     angular
         .module('app')
-        .controller('HomeController', HomeController);
+        .component('home', {
+            controller: HomeController,
+            controllerAs: "vm",
+            templateUrl: "app/home/home.html"
+        });
 }

@@ -3,7 +3,7 @@ namespace app {
     'use strict';
 
     export interface IAboutController extends IBaseController { }
-    
+
     export class AboutController implements IAboutController {
 
         public title: string = "About";
@@ -16,5 +16,9 @@ namespace app {
 
     angular
         .module('app')
-        .controller('AboutController', AboutController);
+        .component('about', {
+            controller: AboutController,
+            controllerAs: "vm",
+            templateUrl: "app/about/about.html"
+        });
 }
