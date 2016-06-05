@@ -1,5 +1,5 @@
 
-module app {
+namespace app {
     'use strict';
 
     export interface IBaseController {
@@ -11,16 +11,16 @@ module app {
     function appConfig($stateProvider: angular.ui.IStateProvider, $urlRouterProvider: angular.ui.IUrlRouterProvider) {
 
         $stateProvider
-            .state("home", {
-                url: "/",
-                template: "<home></home>"
+            .state('home', {
+                url: '/',
+                template: '<home></home>'
             })
-            .state("about", {
-                url: "/about",
-                template: "<about></about>"
+            .state('about', {
+                url: '/about',
+                template: '<about></about>'
             });
 
-        $urlRouterProvider.otherwise("/");
+        $urlRouterProvider.otherwise('/');
 
     }
 
